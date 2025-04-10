@@ -45,18 +45,14 @@ h6 {
 p{
     margin: 0;
 }
+img{
+    display: block;
+}
 button {
     cursor: pointer;
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
-}
-.header-nav-div-logo{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
 }
 .header-nav-ul-li-a{
     font-size: 16px;
@@ -170,6 +166,12 @@ button {
 }
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
+
+}
+.footer .container .logo-web{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-p {
     font-weight: 400;
@@ -177,6 +179,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 .footer .logo-studio {
     color: #f4f4fd;
